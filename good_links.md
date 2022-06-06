@@ -22,6 +22,12 @@ ML System design：我是以educative.IO的ML system design课程为template的�
 - 相关资料
 deep learning specialization：https://aman.ai/coursera-dl/
 
+k姐，Data Scientist 炼成记录-更新完毕2018年12月 | 机器学习练成记录 - 已开新帖：https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=76429&extra=&authorid=151&page=1
+
+k姐，机器学习`侠`练成记录 Becoming a Machine Learning Practitioner：https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=462348
+
+k姐视频：https://blog.1point3acres.com/ds-courses/
+
 万字长文 | 2023届校招算法岗知识总结：https://mp.weixin.qq.com/s/hYr4PDh9rgsBx18YcKX8eg
 
 机器学习算法Python实现: https://github.com/lawlite19/MachineLearning_Python
