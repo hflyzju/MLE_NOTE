@@ -33,3 +33,6 @@ k姐视频：https://blog.1point3acres.com/ds-courses/
 机器学习算法Python实现: https://github.com/lawlite19/MachineLearning_Python
 
 所有搜推算法岗可能会出现的问题囊括其中: https://github.com/Jace-Yang/MLE-interview
+
+
+Top 50 Machine Learning Interview Questions for 2022:https://www.interviewquery.com/p/machine-learning-interview-questions
