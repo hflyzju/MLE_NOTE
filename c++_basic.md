@@ -9,11 +9,13 @@
 |list链表|list链表：内存上为链式结构，可以动态增加，适用于大量增加，删除的应用，不适合大量查询的应用|mylist.insert(it, i);遍历操作和上面一样|
 | queue队列|先进先出FIFO，动态调整大小，适用于大量增、删操作，不适应于大量查找操作|myqueue.push(i), myqueue.empty(), myqueue.front(), myqueue.pop()|
 | stack栈|先进后出，适应于图的遍历、递归函数的改写等|mystack.push(),mystack.top(),mystack.pop(),mystack.empty()|
-|map|kv|map<char,int>, mymap;search = mymap.find('a'), search != mymap.end(), search->first, search->second();|
+|map(有序，红黑树实现，占空间，效率高，适应于排序需求，中序遍历是从小到大)|kv|map<char,int>, mymap;search = mymap.find('a'), search != mymap.end(), search->first, search->second();mymap.erase(key)|
+|unordered_map(hash表实现，空间少，适应于查找问题)|kv|unordered_map<char,int>, mymap;search = mymap.find('a'), search != mymap.end(), search->first, search->second();mymap.erase(key)|
 |set|set|set<int>, myset.insert(i),遍历和前面一样, myset.find(i) != myset.end(),myset.erase (myset.find(40));|
 |deque|双端队列|mydeque.push_back(), mydeque.push_front(),mydeque.pop_front(), mydeque.pop_back()|
 |priority_queue|最大堆,最小堆|最小堆：std::priority_queue<int, std::vector<int>, std::greater<int>>, 最大堆(默认)：std::priority_queue<int>, 最大堆: priority_queue<int, std::vector<int>, std::less<int> maxqueue, maxqueue.top(), maxqueue.top()|
 |树的遍历|TreeNode * cur|cur->left != NULL,deque<TreeNode *> d|
+|string|字符串|s.substr(start, length)|
 
 #### 1.1 array
 
@@ -188,7 +190,7 @@ int main()
 9 8 7 6 5 4 3 2 1 0
 ```
 
-#### 1.5 map
+#### 1.5 map and unordered_map
 
 ```c++
 #import <iostream>
@@ -353,7 +355,7 @@ int main()
 ```
 
 
-#### 1.4 c++树的遍历
+#### 1.8 c++树的遍历
 
 ```c++
 
@@ -394,4 +396,57 @@ public:
         return ans;
     }
 };
+```
+
+#### 1.9 字符串操作
+
+```c++
+class Solution {
+public:
+    vector<int> findSubstring(string &s, vector<string> &words) {
+        vector<int> res;
+        int m = words.size(), n = words[0].size(), ls = s.size();
+        // 枚举起点
+        for (int i = 0; i < n && i + m * n <= ls; ++i) {
+            // 统计长度为m的子串中每个word的频次
+            unordered_map<string, int> differ;
+            for (int j = 0; j < m; ++j) {
+                ++differ[s.substr(i + j * n, n)];
+            }
+            // 比较
+            for (string &word: words) {
+                if (--differ[word] == 0) {
+                    differ.erase(word);
+                }
+            }
+
+            // 利用滑动窗口即系往后看
+            for (int start = i; start < ls - m * n + 1; start += n) {
+                // 这个代表往后移动
+                if (start != i) {
+                    // 加上后面一个word
+                    string word = s.substr(start + (m - 1) * n, n);
+                    if (++differ[word] == 0) {
+                        differ.erase(word);
+                    }
+                    // 移除最前面的word
+                    word = s.substr(start - n, n);
+                    if (--differ[word] == 0) {
+                        differ.erase(word);
+                    }
+                }
+                // 如果为空，则加进来
+                if (differ.empty()) {
+                    res.emplace_back(start);
+                }
+            }
+        }
+        return res;
+    }
+};
+
+// 作者：LeetCode-Solution
+// 链接：https://leetcode.cn/problems/substring-with-concatenation-of-all-words/solution/chuan-lian-suo-you-dan-ci-de-zi-chuan-by-244a/
+// 来源：力扣（LeetCode）
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
