@@ -13,6 +13,7 @@
 |set|set|set<int>, myset.insert(i),遍历和前面一样, myset.find(i) != myset.end(),myset.erase (myset.find(40));|
 |deque|双端队列|mydeque.push_back(), mydeque.push_front(),mydeque.pop_front(), mydeque.pop_back()|
 |priority_queue|最大堆,最小堆|最小堆：std::priority_queue<int, std::vector<int>, std::greater<int>>, 最大堆(默认)：std::priority_queue<int>, 最大堆: priority_queue<int, std::vector<int>, std::less<int> maxqueue, maxqueue.top(), maxqueue.top()|
+|树的遍历|TreeNode * cur|cur->left != NULL,deque<TreeNode *> d|
 
 #### 1.1 array
 
@@ -349,4 +350,48 @@ int main()
 ```
 100 8 5 3 2
 2 3 5 8 100
+```
+
+
+#### 1.4 c++树的遍历
+
+```c++
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    int findBottomLeftValue(TreeNode* root) {
+
+        deque<TreeNode *> d;
+        d.push_back(root);
+        int ans = 0;
+        while (!d.empty()) {
+            int size = d.size();
+            for (int i =0; i<size; i++) {
+                TreeNode * cur = d.front();
+                d.pop_front();
+                if(i == 0) {
+                    ans = cur->val;
+                }
+                if(cur->left != NULL) {
+                    d.push_back(cur->left);
+                }
+                if(cur->right != NULL) {
+                    d.push_back(cur->right);
+                }
+            }
+        }
+        return ans;
+    }
+};
 ```
