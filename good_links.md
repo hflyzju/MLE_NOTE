@@ -1,5 +1,5 @@
 
-#### 1. Google/LinkedIn等MLE面试分享 https://www.1point3acres.com/bbs/thread-781157-1-1.html
+### 1. Google/LinkedIn等MLE面试分享 https://www.1point3acres.com/bbs/thread-781157-1-1.html
 - MLE面试内容
 ```
 Coding：平均2轮
@@ -36,3 +36,16 @@ k姐视频：https://blog.1point3acres.com/ds-courses/
 
 
 Top 50 Machine Learning Interview Questions for 2022:https://www.interviewquery.com/p/machine-learning-interview-questions
+
+
+### 2. 课程
+
+动手学深度学习（Dive into Deep Learning）英文版：https://d2l.ai/
+动手学深度学习（Dive into Deep Learning）中文版：https://zh.d2l.ai/
+动手学深度学习（Dive into Deep Learning）英文版 pdf：https://d2l.ai/d2l-en.pdf
+动手学深度学习（Dive into Deep Learning）英文版 课程：https://courses.d2l.ai/
+
+
+### 3. 其他面试资料
+
+geeksforgeeks machine-learning部分：https://www.geeksforgeeks.org/machine-learning/?ref=shm
