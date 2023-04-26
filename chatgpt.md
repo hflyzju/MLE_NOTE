@@ -10,11 +10,20 @@
 3. [CodeGeeX](https://github.com/THUDM/CodeGeeX)
 4. [【官方教程】ChatGLM-6B 微调，最低只需 7GB 显存](https://mp.weixin.qq.com/s/51EtMK4SQLR4TvYDi_Uxxw)
 
+### 复旦MOSS
+1. [MOSS github](https://github.com/OpenLMLab/MOSS)
+2. [复旦团队大模型 MOSS 开源了，有哪些技术亮点值得关注？](https://www.zhihu.com/question/596908242)
+3. [符尧：我想为 MOSS 正名](https://mp.weixin.qq.com/s/NicaChbg_Js3RFliHjkb2w)
+
 ### 骆驼+商汤
 5. [斯坦福开源机器人小羊驼Vicuna，130亿参数匹敌90%ChatGPT](https://hub.baai.ac.cn/view/25175)
 6. [【开源GPT】三位华人小哥开源中文语言模型“骆驼”，单卡即可完成训练部署，花费几百训练自己的中文聊天模型](https://zhuanlan.zhihu.com/p/615968438?utm_campaign=shareopn&utm_medium=social&utm_oi=1307092471969251328&utm_psn=1623627255275565056&utm_source=wechat_session)
 7. [Luotuo-Chinese-LLM](https://github.com/LC1332/Luotuo-Chinese-LLM)
 8. [japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora)
+
+### 小模型
+1. [如何使用1B参数的小模型吊打GPT3.5。](https://mp.weixin.qq.com/s/HJVlQj_T6niN_yCckQTV4A)
+2. []()
 
 ### colossalAI
 9. [ColossalAI](https://github.com/hpcaitech/ColossalAI)
@@ -33,9 +42,15 @@
 1. [ChatGPT的强化学习部分介绍——PPO算法实战LunarLander-v2](https://mp.weixin.qq.com/s/DiKulIhOnMc_VSJO4UJRSw)
 2. [训练ChatGPT的必备资源：语料、模型和代码库完全指南](https://mp.weixin.qq.com/s/6enOkW7pZsMeTpc4SODwSQ)
 
+### RLHF训练
+1. [基于trl和peft使用RLHF方法微调gpt2实现正面评论生成](https://mp.weixin.qq.com/s/KFQ9HQA2bl4UAGBfue9R4A)
+
 ### 数据
 1. [ChatAlpaca：基于Alpaca派生的多轮对话数据集](https://mp.weixin.qq.com/s/nLV2XRzqzRM3k3nHLP3MCg)
+2. [震撼开源！首个1万多人共同标注的35种语言的高质量对话数据集来啦](https://mp.weixin.qq.com/s/WMqJqtjG36ko7m-B4Gv4_A)
 
+### 训练技巧
+1. [高效又稳定的ChatGPT大模型训练技巧总结，让训练事半功倍！](https://mp.weixin.qq.com/s/jZdquERKwcvZguBjwT2y5g)
 
 ## document dialog generation
 1. [paperswithcode dialogue-generation-on-persona-chat](https://paperswithcode.com/sota/dialogue-generation-on-persona-chat-1)
@@ -56,6 +71,7 @@
 ## 其他资源
 1. [警惕不负责任的误导宣传-LLaMA微调7W数据的Vicuna达90%+ChatGPT：评测方式概述和开源微调数据介绍](https://mp.weixin.qq.com/s/XocqxI5qU7c5ZF7x3eYxDg)
 2. [【NLP论文速递】文本生成、中文诗歌生成、邮件主题生成、感知对话生成、文摘生成、会话响应生成](https://mp.weixin.qq.com/s/b8e56nXv5ma3SlxC95n6OQ)
+3. [开源LLM领域变天！LLaMa惊天泄露引爆ChatGPT平替狂潮](https://mp.weixin.qq.com/s/dGdiBTMeUVbaHUcAXdBdEA)
 
 
 
