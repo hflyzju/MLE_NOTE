@@ -35,6 +35,7 @@
 3. [AnyQ(ANswer Your Questions) 开源项目主要包含面向FAQ集合的问答系统框架、文本语义匹配工具SimNet](https://github.com/baidu/AnyQ)
 4. [手把手搭建一个语义检索系统](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/applications/neural_search)
 5. [FAQ智能问答系统设计与实现(java)](https://blog.csdn.net/qq_33187136/article/details/123926221)
+6. [基于Pytorch的中文语义相似度匹配模型](https://github.com/zhaogaofeng611/TextMatch)
 
 ## 1.4 对话流相关
 1. [Build chatbots with Dialogflow](https://github.com/botpress/botpress)
@@ -84,7 +85,8 @@
 
 1. [NLP下半场，还有哪些值得关注的研究领域与应用场景？](https://mp.weixin.qq.com/s/jCWSMkYEVFDYGFUD85F2nw)
 2. [达摩院Conversational AI研究进展及应用](https://mp.weixin.qq.com/s/-PFnaczT8fTlOfhAefybgw)
+3. [NLP 常用模型和数据集高速下载](https://sunyancn.github.io/post/28052.html)
+4. [千言数据集：问题匹配鲁棒性](https://aistudio.baidu.com/aistudio/competition/detail/130/0/introduction)
+5. [2021 CCF BDCI 千言-问题匹配鲁棒性评测Baseline](https://aistudio.baidu.com/aistudio/projectdetail/2461530)
+6. [文本匹配相关资源（库、冠军方案、工具包、样本）](https://github.com/fighting41love/funNLP#%E6%96%87%E6%9C%AC%E5%8C%B9%E9%85%8D)
 
-
-
-##
