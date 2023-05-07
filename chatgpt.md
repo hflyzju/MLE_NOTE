@@ -2,7 +2,7 @@
 本文收集了近期比较好的chatgpt相关模型的开源版本，包括原理解读，相关技术实践等内容
 
 
-## 好的开源模型
+## 一、好的开源模型
 
 ### 清华
 1. [GLM](https://github.com/THUDM/GLM)
@@ -38,12 +38,12 @@
 14. [Firefly(流萤): 中文对话式大语言模型](https://mp.weixin.qq.com/s/O1QV32QRJtYjtvu6ZCDc7Q)
 
 
-## 使用方法
+## 二、使用方法
 
 ### prompt
 1. [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 
-## 相关技术
+## 三、相关技术
 
 ### PPO算法
 1. [ChatGPT的强化学习部分介绍——PPO算法实战LunarLander-v2](https://mp.weixin.qq.com/s/DiKulIhOnMc_VSJO4UJRSw)
@@ -67,7 +67,7 @@
 3. [ParlAI](https://github.com/facebookresearch/ParlAI)
 
 
-## 相关资源
+## 四、相关资源
 1. [Flan-T5: One Model for ALL Tasks](https://zhuanlan.zhihu.com/p/580468546)
 2. [车万翔：ChatGPT时代，NLPer 的危与机](https://mp.weixin.qq.com/s/BlcfBkuSyYXeUPKzfbSOGg)
 3. [思维链（Chain-of-thoughts）作为提示](https://zhuanlan.zhihu.com/p/493533589)
@@ -77,7 +77,7 @@
 7. [Copilot背后的功臣：OpenAI Codex](https://zhuanlan.zhihu.com/p/414210861)
 
 
-## 其他资源
+## 五、其他资源
 1. [警惕不负责任的误导宣传-LLaMA微调7W数据的Vicuna达90%+ChatGPT：评测方式概述和开源微调数据介绍](https://mp.weixin.qq.com/s/XocqxI5qU7c5ZF7x3eYxDg)
 2. [【NLP论文速递】文本生成、中文诗歌生成、邮件主题生成、感知对话生成、文摘生成、会话响应生成](https://mp.weixin.qq.com/s/b8e56nXv5ma3SlxC95n6OQ)
 3. [开源LLM领域变天！LLaMa惊天泄露引爆ChatGPT平替狂潮](https://mp.weixin.qq.com/s/dGdiBTMeUVbaHUcAXdBdEA)
