@@ -21,9 +21,11 @@
 7. [Luotuo-Chinese-LLM](https://github.com/LC1332/Luotuo-Chinese-LLM)
 8. [japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora)
 
+### 微调
+1. [大模型LLM-微调经验分享&总结](https://zhuanlan.zhihu.com/p/620885226)
+
 ### 小模型
 1. [如何使用1B参数的小模型吊打GPT3.5。](https://mp.weixin.qq.com/s/HJVlQj_T6niN_yCckQTV4A)
-2. []()
 
 ### colossalAI
 9. [ColossalAI](https://github.com/hpcaitech/ColossalAI)
@@ -35,6 +37,11 @@
 13. [百篇论文纵览大型语言模型最新研究进展](https://mp.weixin.qq.com/s/E4IlKg2AxPGcwfzKfP2RNg)
 14. [Firefly(流萤): 中文对话式大语言模型](https://mp.weixin.qq.com/s/O1QV32QRJtYjtvu6ZCDc7Q)
 
+
+## 使用方法
+
+### prompt
+1. [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 
 ## 相关技术
 
@@ -51,6 +58,8 @@
 
 ### 训练技巧
 1. [高效又稳定的ChatGPT大模型训练技巧总结，让训练事半功倍！](https://mp.weixin.qq.com/s/jZdquERKwcvZguBjwT2y5g)
+
+
 
 ## document dialog generation
 1. [paperswithcode dialogue-generation-on-persona-chat](https://paperswithcode.com/sota/dialogue-generation-on-persona-chat-1)
@@ -72,6 +81,7 @@
 1. [警惕不负责任的误导宣传-LLaMA微调7W数据的Vicuna达90%+ChatGPT：评测方式概述和开源微调数据介绍](https://mp.weixin.qq.com/s/XocqxI5qU7c5ZF7x3eYxDg)
 2. [【NLP论文速递】文本生成、中文诗歌生成、邮件主题生成、感知对话生成、文摘生成、会话响应生成](https://mp.weixin.qq.com/s/b8e56nXv5ma3SlxC95n6OQ)
 3. [开源LLM领域变天！LLaMa惊天泄露引爆ChatGPT平替狂潮](https://mp.weixin.qq.com/s/dGdiBTMeUVbaHUcAXdBdEA)
+4. [压缩你的Prompt，让LLMs处理多达2倍的Context](https://zhuanlan.zhihu.com/p/625440016)
 
 
 
