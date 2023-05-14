@@ -43,6 +43,15 @@
 ### prompt
 1. [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 
+### 模型评估
+1. [首个自动化评估大模型的大模型PandaLM：可复现、自动化、低成本、高评估水平](https://hub.baai.ac.cn/view/26725)
+2. [BELLE/eval，一个1k+的测试集合，和对应打分prompt。包含多个类别，采用GPT-4或者ChatGPT打分。同时提供了一个打分的网页，方便针对单个case使用](https://github.com/LianjiaTech/BELLE/tree/main/eval)
+3. [Chain-of-Thought Hub: Measuring LLMs' Reasoning Performance衡量大语言模型的推理能力](https://github.com/FranxYao/chain-of-thought-hub)
+4. [Z-Bench 1.0 by 真格基金 一个麻瓜的大语言模型中文测试集](https://github.com/zhenbench/z-bench)
+
+### 插件
+1. [达摩院插件benchmark API-Bank](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/api-bank)
+
 ## 三、相关技术
 
 ### PPO算法
@@ -82,6 +91,10 @@
 2. [【NLP论文速递】文本生成、中文诗歌生成、邮件主题生成、感知对话生成、文摘生成、会话响应生成](https://mp.weixin.qq.com/s/b8e56nXv5ma3SlxC95n6OQ)
 3. [开源LLM领域变天！LLaMa惊天泄露引爆ChatGPT平替狂潮](https://mp.weixin.qq.com/s/dGdiBTMeUVbaHUcAXdBdEA)
 4. [压缩你的Prompt，让LLMs处理多达2倍的Context](https://zhuanlan.zhihu.com/p/625440016)
+5. [万字拆解！追溯ChatGPT各项能力的起源](https://mp.weixin.qq.com/s/VYv8BRgGnp9ZTuXxaSuFwg)
+6. [FranxYao github](https://github.com/FranxYao)
+7. [BELLE: Be Everyone's Large Language model Engine](https://github.com/LianjiaTech/BELLE/tree/main)
+8. [Awesome-LLM)](https://github.com/Hannibal046/Awesome-LLM)
 
 
 
