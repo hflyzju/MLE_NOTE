@@ -24,6 +24,8 @@
 ### 对话系统数据集
 1. [NLP领域中文对话系统数据集总结（有下载地址）](https://zhuanlan.zhihu.com/p/450326881)
 2. [AIWIN2022-中文保险小样本多任务竞赛-Baseline](https://aistudio.baidu.com/aistudio/projectdetail/3852921?shared=1)
+3. [大规模跨领域任务型中文对话数据集](https://github.com/thu-coai/CrossWOZ)
+4. [中文保险行业qa数据集](https://github.com/chatopera/insuranceqa-corpus-zh)
 
 ### DST模型
 1. [回顾第七届国际对话系统技术挑战赛](https://mp.weixin.qq.com/s/7ICwxaDRMV28ApQ2W1Vq9Q)
@@ -89,4 +91,6 @@
 4. [千言数据集：问题匹配鲁棒性](https://aistudio.baidu.com/aistudio/competition/detail/130/0/introduction)
 5. [2021 CCF BDCI 千言-问题匹配鲁棒性评测Baseline](https://aistudio.baidu.com/aistudio/projectdetail/2461530)
 6. [文本匹配相关资源（库、冠军方案、工具包、样本）](https://github.com/fighting41love/funNLP#%E6%96%87%E6%9C%AC%E5%8C%B9%E9%85%8D)
+7. [智能问答](https://github.com/renatoviolin/Question-Answering-Albert-Electra)
+8. [NLP民工的乐园: 几乎最全的中文NLP资源库](https://github.com/fighting41love/funNLP#%E6%99%BA%E8%83%BD%E9%97%AE%E7%AD%94)
 
